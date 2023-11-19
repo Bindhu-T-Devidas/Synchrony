@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #ec4f33;
-  --color-primary: #f10f0f85;
+  --color-primary: #d04242;
   --color-secondary: #ec694f;
 }
 
@@ -36,7 +36,6 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
 }
-
 a {
   color: var(--color-primary);
   text-decoration: none;
@@ -63,7 +62,6 @@ section {
   padding: 80px 0;
   overflow: hidden;
 }
-
 .section-header {
   text-align: center;
   padding: 30px 0;
@@ -339,7 +337,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -1707,7 +1705,7 @@ section {
   width: 100%;
   min-height: 50vh;
   background-color: var(--color-secondary);
-  background-image: url("/Users/bindudevidas/Desktop/Logis/assets/img/Untitled design.png");
+  background-image: url("../img/Untitled design.png");
   background-size: cover;
   background-position: center;
   position: relative;
